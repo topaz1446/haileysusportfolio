@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hailey's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section p {
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        
+        .links a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #764ba2;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: white;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+            
+            .links {
+                flex-direction: column;
+            }
+            
+            .links a {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hailey's Portfolio</h1>
+        <p>Welcome to my professional portfolio</p>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>👋 About Me</h2>
+            <p>Welcome to my portfolio! I'm Hailey, and this is where I showcase my skills, projects, and professional experience.</p>
+            <p>Feel free to explore my work and get in touch if you'd like to collaborate!</p>
+        </div>
+        
+        <div class="section">
+            <h2>💼 Skills & Experience</h2>
+            <p>I'm passionate about creating great work and solving interesting problems. My CV contains detailed information about my professional background.</p>
+            <div class="links">
+                <a href="Haileysus%20CV.zip" download>📥 Download My CV</a>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🚀 Next Steps</h2>
+            <p>This is a starting template for your portfolio. You can customize it by:</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li>Editing this HTML file directly</li>
+                <li>Adding your projects and work samples</li>
+                <li>Including links to your GitHub, LinkedIn, or other platforms</li>
+                <li>Customizing colors and styles to match your brand</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>📧 Get In Touch</h2>
+            <p>I'd love to hear from you! Feel free to reach out through your preferred contact method.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Hailey's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
